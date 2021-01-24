@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+
+  canvas {
+    position: absolute;
+    opacity: 0.5;
+  }
+}

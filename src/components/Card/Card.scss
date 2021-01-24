@@ -1,0 +1,22 @@
+.Card {
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+  border: dashed 2px #061;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #fff;
+
+  img {
+    width: 100%;
+  }
+
+  &.active {
+    background-color: rgba(191, 192, 191, 0.7);
+
+    &.victory {
+      background-color: rgba(105, 226, 44, 0.5);
+    }
+  }
+
+}
