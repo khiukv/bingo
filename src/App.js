@@ -161,6 +161,7 @@ export default class App extends Component {
     })
 
     if(this.state.victory) {
+      document.querySelector('#c').style.display = 'block';
       matrix();
     }
   }
