@@ -1,4 +1,4 @@
-/* It's not my function */
+//This function was not created by me. I just finalized and edited it to fit my needs.
 function matrix() {
 
   let c = document.getElementById("c");
@@ -38,6 +38,14 @@ function matrix() {
     }
   }
   
-  setInterval(draw, 33);
+  let matrixInterval = setInterval(draw, 20);
+
+  function canvasNone() {
+    clearInterval(matrixInterval);
+    document.querySelector('#c').style.display = 'none';
+  }
+
+  c.addEventListener('click', canvasNone);
 }
+
 export default matrix;
