@@ -9,7 +9,7 @@ const Card = (props) => {
     cls.push('active');
   }
 
-  if(props.victory) {
+  if(props.winner) {
     cls.push('victory');
   }
   
